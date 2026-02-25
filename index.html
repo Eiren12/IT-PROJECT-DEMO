@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IT Project Demo - Video Practice</title>
+</head>
+<body>
+
+    <h1>Project Demonstration: Web Scraper 1.0</h1>
+    <hr>
+
+    <video width="800" height="450" controls 
+        poster="https://via.placeholder.com/800x450.png?text=Click+to+Watch+Demo" muted>
+
+        <source src="./asset/videos/5539-184226951_small.mp4" type="video/mp4">
+        <source src="./asset/videos/istockphoto-1317298608-640_adpp_is.mp4" type="video/webm">
+        <source src="./asset/videos/istockphoto-1356762790-640_adpp_is.mp4" type="video/ogg">
+
+        <track label="English" kind="subtitles" srclang="en" src="subtitles_en.vtt" default>
+        <track label="Spanish" kind="subtitles" srclang="es" src="subtitles_es.vtt">
+
+        Your browser does not support the HTML5 video tag. Please upgrade your browser.
+    </video>
+
+    <br>
+
+    <h3>Video Controls Practice</h3>
+    <ul>
+        <li><strong>Autoplay:</strong> Add <code>autoplay</code> to the tag to start immediately (usually requires <code>muted</code>).</li>
+        <li><strong>Loop:</strong> Add <code>loop</code> to make the video restart automatically.</li>
+        <li><strong>Preload:</strong> Use <code>preload="none"</code> (save data), <code>metadata</code> (only load duration/size), or <code>auto</code> (load everything).</li>
+    </ul>
+
+    <hr>
+
+    <h3>Bonus: Background Video Mode</h3>
+    <p>This version is often used for hero headers. It plays automatically, loops forever, and has no controls.</p>
+
+    <video width="300" autoplay loop muted playsinline style="border: 2px solid black;">
+        <source src="./assets/videos/video1.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
